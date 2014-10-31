@@ -3,18 +3,18 @@ TrueSkill Ranking System Algorithms
 This ranking system is used to both identify and track the skills of players in a tennis game based on the binary results of the 2011 ATP men’s tennis singles for 107 players in a total of 1801 games, which these players played against each other in the 2011 season. Three different approaches are used to compute this ranking system for these ATP tennis players. The algorithm's implementation is complished by Matlab.
 
 ## Three Key ranking algorithms files:
-** 1. Empircal.m: It simply based on the empirical ratio of number of wins to total number of games played.  **
+**1. Empircal.m: It simply based on the empirical ratio of number of wins to total number of games played.**
 
-** 2. gibbsrank.m: This ranking system algorithm is accomplished by utilising Bayes Decision Rule with generative model, Gibbs Sampling and Markov Chain Monte Carlo(MCMC). **
+**2. gibbsrank.m: This ranking system algorithm is accomplished by utilising Bayes Decision Rule with generative model, Gibbs Sampling and Markov Chain Monte Carlo(MCMC).**
 
-** 3. eprank.m: This ranking system algorithm is based on Message Passing on Factor Graph and Expectation Propagation(EP). **
+**3. eprank.m: This ranking system algorithm is based on Message Passing on Factor Graph and Expectation Propagation(EP).**
 
 ## The visualisation results of three methods:
-** 1. Empirical-Graph.png: Empirical method.  **
+**1. Empirical-Graph.png: Empirical method.**
 
-** 2. Gibbs-Sampling-MCMC.png: Bayes Decision Rule with generative model, Gibbs Sampling and Markov Chain Monte Carlo(MCMC) algorithms. **
+**2. Gibbs-Sampling-MCMC.png: Bayes Decision Rule with generative model, Gibbs Sampling and Markov Chain Monte Carlo(MCMC) algorithms.**
 
-** 3. Message-Passing-EP.png: Message Passing on Factor Graph and Expectation Propagation(EP) algorithms. **
+**3. Message-Passing-EP.png: Message Passing on Factor Graph and Expectation Propagation(EP) algorithms.**
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ In order to run each corresponding Matlab program you will want to do the follow
 1. Download tennis_data.mat and other algorithms. Store them into the same directory.
 2. Comments inside these algorithms will help you understand procedure approximately.
 
-** For thorough and deep understanding of these algorithms, please refer to the Resources section below. **
+**For thorough and deep understanding of these algorithms, please refer to the Resources section below.**
 
 ## Resources
 
